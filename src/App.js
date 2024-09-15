@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_KEY = 'c8c65c7564444cf3897698a24f1f7402';  // Replace with your News API key
+const API_KEY = 'pub_53507b9c06a29f2a36b6f6ec4e49d5ea93310';  // Replace with your News API key
 const BASE_URL = `https://newsapi.org/v2/everything?apiKey=${API_KEY}`;
 
 function App() {
